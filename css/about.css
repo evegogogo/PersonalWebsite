@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+.front_page {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.header {
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: black;
+    font-weight: 800;
+    font-size: 2em;
+    text-align: center;
+}
+
+.top_navigation ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 12px 18px;
+    padding: .7rem, 20px, .7rem, 20px;
+    overflow: hidden;
+}
+
+.top_navigation li {
+    display: block;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.top_navigation a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.top_navigation a:hover{
+    opacity: 0.5;
+}
+
+.top_navigation.active {
+    background-color: black;
+}
+
+.content {
+    align-content: center;
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #333333;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    background-color: #f3f3f3;
+    display: block;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.content h2 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 0.3em;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.content p {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0.2em;
+    line-height: 38px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.question2 {
+    color: #777777;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.answer2 {
+    color: #999999;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.web ul{
+    font-size: 30px;
+    text-align: left;
+    color: #777777;
+    line-height: 45px;
+    margin: 12px 18px;
+    padding: .7rem, 20px, .7rem, 20px;
+}
