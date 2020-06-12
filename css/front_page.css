@@ -92,6 +92,10 @@ p {
     line-height: 32px;
 }
 
+.qa {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .question {
     color: #777777;
     font-weight: 600;
@@ -120,6 +124,11 @@ p {
 }
 
 .github {
+    width: 30px;
+    height:30px;
+}
+
+.facebook {
     width: 30px;
     height:30px;
 }

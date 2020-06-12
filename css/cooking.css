@@ -74,3 +74,51 @@
     padding: 10px;
     margin: 10px;
 }
+
+.cook {
+    width: 24.5%;
+    float: left;
+    height: 450px;
+    margin: 8px 4px 8px 4px;
+    
+}
+
+.cook img {
+    border-radius: 5%;
+    width: 100%;
+    height: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.cooktable {
+    table-layout: fixed;
+    width: auto;
+    height: auto;
+}
+
+.container {
+    display: inline;
+    background-color: #f3f3f3;
+}
+
+.container h3 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #333333;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    margin: 12px 0;
+}
+
+.container p {
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #333333;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+}
