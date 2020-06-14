@@ -206,3 +206,14 @@
     column-span: all;
     line-height: 38px;
 }
+
+/** Mobile Font Adjustment **/
+@media (max-width: 700px) {
+    .resume {
+        font-size: 85%;
+    }
+
+    .text_field3 {
+        font-size: 85%;
+    }
+}

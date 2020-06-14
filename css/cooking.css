@@ -78,9 +78,13 @@
 .cook {
     width: 24.5%;
     float: left;
-    height: 450px;
+    height: 430px;
     margin: 8px 4px 8px 4px;
-    
+}
+
+.img_class {
+    border-radius: 5%;
+    overflow: hidden;
 }
 
 .cook img {
@@ -89,6 +93,15 @@
     height: auto;
     background-position: center center;
     background-repeat: no-repeat;
+    transform-origin: 50% 65%;
+    transition: transform 5s, filter 3s ease-in-out;
+    filter: brightness(100%);
+}
+  
+.cook:hover img {
+    border-radius: 5%;
+    filter: brightness(100%);
+    transform: scale(3);
 }
 
 .cooktable {
@@ -100,6 +113,7 @@
 .container {
     display: inline;
     background-color: #f3f3f3;
+    
 }
 
 .container h3 {
@@ -121,4 +135,28 @@
     text-align: center;
     display: block;
     margin: 12px 0;
+}
+
+/** Mobile Font Adjustment **/
+@media (max-width: 700px) {
+    .description {
+        font-size: 85%;
+    }
+    
+    .container h3 {
+        font-size: 85%;
+    }
+
+    .container p {
+        font-size: 85%;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .cook {
+        width: 100%;
+        height: auto;
+    }
 }

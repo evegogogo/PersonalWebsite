@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+.front_page {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.header {
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: black;
+    font-weight: 800;
+    font-size: 2em;
+    text-align: center;
+}
+
+.top_navigation ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 12px 18px;
+    padding: .7rem, 20px, .7rem, 20px;
+    overflow: hidden;
+}
+
+.top_navigation li {
+    display: block;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.top_navigation a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.top_navigation a:hover{
+    opacity: 0.5;
+}
+
+.top_navigation.active {
+    background-color: black;
+}
+
+body {
+    margin:0; 
+    padding:0; 
+    text-align:center;
+}
+
+.wrapper {
+    max-width:1600px; 
+    margin:0 auto; 
+    text-align:left;
+    align-content: center;
+}
+
+.wrapper h2 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #333333;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    display: block;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.wrapper img {
+    width: 480px;
+    height: 320px; 
+    float: left;
+}
+
+.lightbox {
+    position:fixed;
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    background:url(/images/blackoverlay.png); 
+    background-size: auto;
+    text-align:center;
+    backdrop-filter: blur(8px);
+}
+
+.lightbox p {
+    text-align:right;
+    color:#fff; 
+    margin-right:20px; 
+    font-size:12px; 
+}
+
+.lightbox img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: auto;
+    box-shadow:0 0 25px #111;
+    max-width:50%;
+    height: auto;
+}
+
+.img-hover-zoom {
+    float: left;
+    overflow: hidden;
+}
+  
+.img-hover-zoom img { 
+    transform-origin: 50% 65%;
+    transition: transform 5s, filter 3s ease-in-out;
+    filter: brightness(100%);
+}
+  
+.img-hover-zoom:hover img {
+    filter: brightness(100%);
+    transform: scale(1.5);
+}
+
+/** Mobile Font Adjustment **/
+@media (max-width: 700px) {
+    /** Disable the hover enlarge, given it is unnecessary on mobile smaller screen. **/
+    .text_field {
+        font-size: 85%;
+    }
+    .maintable {
+        table-layout: auto;
+    }
+}

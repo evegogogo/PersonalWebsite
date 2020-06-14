@@ -61,6 +61,7 @@
 
 .maintable {
     table-layout: auto;
+    width: 100%;
 }
 
 .myphoto {
@@ -75,6 +76,10 @@
     align-self: stretch;
     -webkit-box-align: center;
     align-items: center;
+}
+
+.myphoto img {
+    border-radius: 3%;
 }
 
 .content {
@@ -136,4 +141,15 @@ p {
 .instagram {
     width: 35px;
     height:35px;
+}
+
+/** Mobile Font Adjustment **/
+@media (max-width: 700px) {
+    .text_field {
+        font-size: 85%;
+    }
+
+    .myphoto {
+        display: none;
+    }
 }
